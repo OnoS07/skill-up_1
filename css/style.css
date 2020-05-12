@@ -69,7 +69,6 @@ header{
 
 .heading-title{
 	padding-top: 90px;
-	padding-bottom: 8px;
 	text-align: center;
 	font-size: 32px;
 	color: #000000;
@@ -177,10 +176,118 @@ header{
 	margin: 0 10px 0 10px;
 }
 
+#profile{
+	background-color: #ECEFF1;
+}
 
+.profiles{
+	width: 1024px;
+	margin:0 auto;
+	padding: 30px 0 90px 0;
+}
 
+.profile-left{
+	width: 50%;
+	float: left;
+}
 
+.photo{
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/icon.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+}
 
+.profile-right{
+	width: 50%;
+	float: right;
+}
 
+.profile-right h3{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.profile-right p{
+	font-size: 16px;
+}
+
+.name{
+	padding-bottom: 20px;
+}
+
+.contacts{
+	width: 800px;
+	margin:0 auto;
+	padding: 30px 0 90px 0;
+}
+
+.contact-left{
+	width: 50%;
+	float: left;
+}
+
+.info{
+	width: 130px;
+	margin: 0 auto;
+}
+
+.contact-left h3{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.contact-left p{
+	font-size: 5px;
+}
+
+.mail{
+	padding-bottom: 20px;
+}
+
+.contact-left a{
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.contact-left a:hover{
+	color: black;
+	text-decoration: none;
+}
+.contact-right {
+	width: 50%;
+	float: right;
+}
+
+.contact-right h3{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.SNS {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.medium{
+	font-size: 50px;
+}
+
+.fa-twitter{
+	margin: 0 20px 0 20px;
+}
+
+footer{
+	height: 60px;
+	background-color: #EC715F;
+	font-size: 16px;
+	color: #FAFAFA;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 60px;
+	margin-bottom: 0;
+}
 
 
