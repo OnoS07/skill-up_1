@@ -1,3 +1,58 @@
-h1{
-	color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.logo{
+	height: 70px;
+}
+
+.navbar-left{
+	float:left;
+}
+
+.navbar-right{
+	float: right;
+}
+
+.nav-list{
+	list-style: none;
+	padding: 20px 30px;
+	font-size: 16px;
+}
+
+.nav-list a{
+	color: #FAFAFA;
+	text-decoration: none;
+}
+
+.nav-list a:hover{
+	color: #FAFAFA;
+	text-decoration: none;
+}
+
+#mv{
+	height: 650px;
+	width: 100%;
+	text-align: center;
+	background-image: url(../img/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.mv-title{
+	padding-top: 200px;
+	padding-bottom: 10px;
+	font-size: 64px;
+	color: #FAFAFA;
+}
+.mv-text{
+	font-size: 20px;
+	color: #FAFAFAFA
 }
