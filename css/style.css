@@ -290,4 +290,51 @@ footer{
 	margin-bottom: 0;
 }
 
+.sp{
+	display: none;
+}
+.pc{
+	display: block;
+}
 
+@media screen and (max-width:768px) {
+	body{
+		margin:0 5% 0 5%;
+	}
+	.container{
+		width: 90%;
+	}
+	.sp{
+		display: block;
+	}
+	.pc{
+		display: none;
+	}
+
+	header{
+		height: 50px;
+	}
+	.logo{
+		height: 50px;
+	}
+
+	.menu-box{
+		width: 40px;
+		height: 40px;
+		border:1px solid white;
+		margin:5px 30px 5px 0;
+	}
+
+	.list-bar{
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: white;
+	}
+
+	.list-bar:first-child{
+		margin-top: 10px;
+	}
+
+}
