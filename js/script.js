@@ -1,12 +1,10 @@
-$(function() {
-  $('.menu-box').on('click', function() {
-    $('.sp-menu').toggleClass("show");
-    return false;
-  });
+$(function(){
 
-  $(".sp-menu .Close").on("click",function(){
-  	$(".sp-menu").removeClass("show");
-  	return false;
-  });
-});
+	$(".menu-box").click(function(){
+		$(".sp-menu").addClass("show");
+	})
+	$(".sp-menu").click(function(){
+		$(".sp-menu").removeClass("show");
+	})
 
+})

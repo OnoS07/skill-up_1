@@ -13,6 +13,9 @@
 header{
 	height: 70px;
 	background-color: #EC715F;
+    width: 100%;
+    position: fixed;
+
 }
 
 .logo{
@@ -411,6 +414,7 @@ footer{
 		margin-top: 20px;
 	}
 
+/*ここからレスポンシブ時のメニュー表示 */
 	.sp-menu{
 		position: fixed;
 		top: 0;
@@ -418,17 +422,16 @@ footer{
 		background-color: #000;
 		opacity: 0.5
 		color: white;
-		width: 100px;
+		width: 200px;
 		z-index: 200;
-		visibility: hidden;
+		display: none;
 	}
 
 	.show{
-		visibility: visible;
+		display: block;
 	}
 
 	.sp-menu a{
-		margin: 0 auto;
 		margin-bottom: 30px;
 		color: white;
 		text-decoration: none;
@@ -444,6 +447,9 @@ footer{
 	li {
   		list-style: none;
  		text-align: center;
+ 		padding-top: 10px;
+    	font-size: 20px;
+    	color: white;
 		}
 
 
